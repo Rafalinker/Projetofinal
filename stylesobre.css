@@ -1,0 +1,67 @@
+body {
+  background-color: #202020;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background-color: #6AD7E5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.member {
+  width: 200px;
+  padding: 20px;
+  background-color: #FEE05E;
+  border: 1px dashed white;
+  margin: 10px;
+  text-align: center;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member h3 {
+  margin: 0;
+  color: #202020;
+}
+
+.member ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.member ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.member ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.member ul li a:hover {
+  background-color: white;
+  color: #202020;
+}
+
+.thank-you-message {
+  text-align: center;
+}
